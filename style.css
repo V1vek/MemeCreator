@@ -1,0 +1,293 @@
+body {
+	font: 14px/1.5 helvetica-neue, helvetica, arial, san-serif;
+	background:#ccc;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+h1 {
+	margin-top:0;
+}
+
+#image_editable{
+width:500px;
+float:left;
+min-height: 100px;
+margin-top:35px;
+margin-left: 35px;
+}
+
+#image_editable img{
+width: 500px;
+cursor:pointer;
+}
+
+#text_edit_options{
+width:310px;
+float:right;
+margin-right:35px;
+margin-top:35px;
+line-height: 5px;
+}
+
+#container{
+width:900px;
+margin-left:auto;
+margin-right:auto;
+min-height: 500px;
+}
+
+#upload_title{
+width:200px;
+float:left;
+}
+
+#openbtn{
+margin-bottom:15px;
+float:left;
+}
+
+#upload {
+
+	width: 300px;
+	margin:auto;
+	background: #ececec;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+#radio_up{
+margin-left:145px;
+}
+
+#submitbtn{
+display:none;
+}
+
+#image-list {
+	list-style:none;
+	margin:0;
+	padding:0;
+margin-top:10px;
+}
+
+.images {
+	list-style:none;
+	margin:0;
+	padding:0;
+margin-top:10px;
+
+}
+.images ul{
+height:125px;
+}
+
+#image-list li {
+	background: #fff;
+	border: 1px solid #ccc;
+	text-align:center;
+	padding:20px;
+	margin-bottom:19px;
+	cursor:pointer;
+}
+
+#draggable_text{
+position:absolute;
+z-index:100;
+background:none;
+border:0;
+color:#ffffff;
+padding:0;
+margin:0;
+cursor:pointer;
+
+font-family: 'Times New Roman'; 
+font-size: 20px; 
+text-align: left;
+ line-height: 20px; 
+ display:none;
+}
+
+#draggable_text2{
+position:absolute;
+z-index:100;
+background:none;
+border:0;
+color:#ffffff;
+padding:0;
+margin:0;
+cursor:pointer;
+font-family: 'Times New Roman'; 
+font-size: 20px; 
+text-align: left;
+ line-height: 20px; 
+ display:none;
+}
+
+#btn{
+display:none;
+}
+
+#image-list li img {
+	width: 258px;
+	vertical-align: middle;
+	border:1px solid #474747;
+}
+
+*{
+	/* Universal page reset */
+	margin:0;
+	padding:0;
+}
+
+#holder li img{
+width:160px;
+}
+
+#prev{
+position: relative;
+top: -51px;
+left:-25px;
+z-index: 10;
+line-height: 18px;
+}
+
+#next{
+position: relative;
+top: -51px;
+z-index: 10;
+line-height: 18px;
+left: 5px;
+}
+
+#main{
+	/* The main container div */
+	position:relative;
+	margin:50px auto;
+	width:800px;
+	background:#eeeeee;
+	border:1px solid #CCCCCC;
+	padding:10px 50px 60px;
+	
+	/* CSS3 rounded cornenrs */
+	
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+
+#holder{
+	/* The unordered list that is to be split into pages */
+background:#cccccc;
+	width:800px;
+	margin-top:10px;
+	overflow:hidden;
+	position:relative;
+	
+	padding-bottom:10px;
+
+	/*	CSS3 inner shadow (the webkit one is commeted, because Google Chrome
+		does not like rounded corners combined with inset shadows): */
+}
+
+.swControls{
+	position:absolute;
+	margin-top:20px;
+}
+
+a.swShowPage{
+
+	/* The links that initiate the page slide */
+
+	
+	float:left;
+	height:15px;
+	margin:4px 3px;
+	
+	width:15px;
+	/*border:1px solid #ccc;*/
+	
+	/* CSS3 rounded corners */
+	
+
+}
+
+a.swShowPage:hover,
+a.swShowPage.active{
+	
+	color:#cccccc;
+	/*	CSS3 inner shadow */
+	
+	
+}
+
+#holder li{
+	background-color:#F4F4F4;
+	list-style:none outside none;
+	margin:10px 20px 0;
+	height:140px;
+	float:left;
+
+	/* Regular CSS3 box shadows (not inset): */
+
+	-moz-box-shadow:0 0 6px #111111;
+	-webkit-box-shadow:0 0 6px #111111;
+	box-shadow:0 0 6px #111111;
+}
+
+#holder,
+#holder li{
+	/* Applying rouded corners to both the holder and the holder lis */
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	z-index: 11;
+		cursor:pointer;
+}
+
+.clear{
+	/* This class clears the floated elements */
+	clear:both;
+}
+
+
+/* The styles below are only necessary for the styling of the demo page */
+
+
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+.font_control_bottom, .font_control_top {
+	width: 20px;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 1px;
+	border: 1px solid black;
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+}
+
+.upload, .save {
+	border: 1px solid black;
+	font-size: 1em;
+	padding: 3px;
+	border-radius: 3px;
+	background-color: black;
+	color: white;
+}
